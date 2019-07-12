@@ -1,8 +1,10 @@
+package duck_behavior;
+
 public class MallarDuck extends Duck {
 
     public MallarDuck(){
         quackBehavior = new Quack();
-        flayBehavior = new FlayWithWings();
+        flyBehavior = new FlayWithWings();
     }
 
     @Override

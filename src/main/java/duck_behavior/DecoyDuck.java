@@ -1,8 +1,10 @@
+package duck_behavior;
+
 public class DecoyDuck extends Duck {
 
     public DecoyDuck(){
         quackBehavior = new Quack();
-        flayBehavior = new FlayNoWay();
+        flyBehavior = new FlayNoWay();
     }
 
     @Override

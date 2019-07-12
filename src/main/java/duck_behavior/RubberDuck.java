@@ -1,8 +1,10 @@
+package duck_behavior;
+
 public class RubberDuck extends Duck {
 
     public RubberDuck(){
         quackBehavior = new Squeak();
-        flayBehavior = new FlayNoWay();
+        flyBehavior = new FlayNoWay();
     }
 
     @Override

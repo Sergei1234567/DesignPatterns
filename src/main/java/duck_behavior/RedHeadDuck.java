@@ -1,8 +1,10 @@
+package duck_behavior;
+
 public class RedHeadDuck extends Duck {
 
     public RedHeadDuck(){
         quackBehavior = new Quack();
-        flayBehavior = new FlayWithWings();
+        flyBehavior = new FlayWithWings();
     }
 
     @Override
